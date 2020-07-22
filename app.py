@@ -14,3 +14,7 @@ app = Flask(__name__)
 @app.route('/index')
 def index():
     return "wassup boii"
+
+@app.route("/hello")
+def hello():
+    return "hello"
